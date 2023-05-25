@@ -10,7 +10,7 @@ import Weather from '@/components/Weather.vue'
       <Search />
       <div class="w-[90%] sm:w-full max-w-[76ch] flex flex-col-reverse sm:flex-row gap-4 z-10">
         <img class="sm:w-56 sm:h-56 bg-base-200 object-cover" :src="settings.imageSrc">
-        <div class="flex flex-col justify-between bg-base-200 min-w-[25vw] p-4">
+        <div class="flex flex-col justify-between bg-base-200 p-4">
           <div>
             <h2 class="text-3xl font-black">Hello, {{ settings.name }}</h2>
             <Weather />
