@@ -6,6 +6,7 @@ const defaults = {
     name: 'User',
     search: 'https://www.google.com/search?q=',
     locationDisplay: 'city',
+    tempUnit: 'celsius',
     links: [
         {
             name: 'Google',

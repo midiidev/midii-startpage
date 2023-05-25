@@ -49,6 +49,14 @@ const addLink = () => {
               <option value="none" :selected="settings.locationDisplay === 'none'">None</option>
             </select>
           </label>
+
+          <label class="block">
+            Temperature Units
+            <select class="input w-full bg-base-200" v-model="settings.tempUnit">
+              <option value="celsius" :selected="settings.tempUnit === 'celsius'">Celsius</option>
+              <option value="fahrenheit" :selected="settings.tempUnit === 'fahrenheit'">Fahrenheit</option>
+            </select>
+          </label>
         </div>
 
         <div class="space-y-4 mt-4">
