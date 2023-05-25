@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Midii Start Page",
+  "version": "1.0",
+  "description": "A new tab page for me",
+  "author": "Ashlyn (midiidev)",
+  "chrome_url_overrides": {
+    "newtab": "/dist/index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{42599f97-8f98-492a-9e89-efaed17d8b9e}"
+    },
+    "gecko_android": {
+      "id": "{42599f97-8f98-492a-9e89-efaed17d8b9e}"
+    }
+  },
+  "permissions": ["storage"]
+}

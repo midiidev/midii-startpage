@@ -1,29 +1,11 @@
-# midii-startpage
+# Midii Start Page
 
-This template should help get you started developing with Vue 3 in Vite.
+I really wanted a custom new tab page, so I made one.
 
-## Recommended IDE Setup
+This is not even close to what I want it to eventually be, so I'll continue development
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+oh yeah also when you build it, make sure to remove the `/` from the beginning
+of the asset links in `dist/index.html` or else the extension won't work
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+you can also just use the little express server I provided instead of loading
+an unpacked extension or packing it yourself and modifying the code
