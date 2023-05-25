@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Midii Start Page",
-  "version": "1.1",
+  "version": "1.1.1",
   "description": "A new tab page for me",
   "author": "Ashlyn (midiidev)",
   "chrome_url_overrides": {
